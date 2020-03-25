@@ -1,4 +1,4 @@
-# A program to compute the area of a circle with a given radii
+# A program to compute the area of a circle with a given radius
 import math
 
 def calculator():
