@@ -42,7 +42,7 @@ function interestCalculator(data) {
     return interestData;
 
     // USING A "FOR" STATEMENT
-    // let newdata = []
+    // let interestData = []
     // for (let element of data) {
     //     let newelement = {}
     //     let principal = element.principal;
@@ -61,11 +61,10 @@ function interestCalculator(data) {
     //     }
     //     interest = (principal * rate * time) / 100;
     //     newelement= {"principal": principal, "rate": rate, "time":time, "interest": interest};
-    //     newdata.push(newelement);
+    //     interestData.push(newelement);
         
     // }
     // console.log(newdata)
 }
 
-c = interestCalculator(data)
-console.log(c)
+interestCalculator(data)
