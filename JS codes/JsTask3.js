@@ -22,7 +22,8 @@ const numdiv = (number) => {
         numArray.push(value);
         
     }
-    console.log(numArray)
+    console.log(numArray);
+    return numArray;
 }
-numdiv(100)
-numdiv(30)
+numdiv(100);
+numdiv(30);
